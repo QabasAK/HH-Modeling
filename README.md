@@ -28,13 +28,15 @@ It implements voltage-dependent rate equations for channel gating variables and 
 \frac {dn}{dt} = \alpha_n * (1 - n) - \beta_n * n
 ```
 Rate constants ($\alpha$ and $\beta$) depend on voltage and determine the speed of gate transitions.
+
 **Channels**
 + Potassium $(K^+)$ : $n^4$ dependence for conductance.
 + Sodium $(Na^+)$ : $m^3h$ dependence for conductance.
 + Leak channel : passive, constant conductance.
-
 ### Simulation Output
+
 The simulation plots membrane potential (V) vs. time (s) showing action potential behavior in response to current injection.
+
  <p align="center">
    <img src="https://github.com/user-attachments/assets/6cae7fff-ff77-48ef-a42f-6136e4e56858" alt="Gesturon" width=70%>
  </p>
