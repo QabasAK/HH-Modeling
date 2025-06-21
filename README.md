@@ -1,6 +1,10 @@
 # Hodgkin-Huxley Neuron Simulation 
 The simulation of the generation of action potentials in a neuron using the **Hodgkin-Huxley model**. It captures how membrane potential evolves due to ion channel dynamics, modeling the ionic currents responsible for neuronal firing.
 
+ <p align="center">
+   <img src="https://github.com/user-attachments/assets/3f757a98-a717-40e3-969b-4e01a73d2c23" alt="Neuron Model" width=50%>
+ </p>
+
 ### Overview 
 The rate of change of the membrane potential is governed by the current flowing across the membrane and the cell's capacitance.
 ```
